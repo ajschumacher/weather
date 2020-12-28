@@ -476,4 +476,5 @@ l ????.csv
 # -h to avoid filenames
 grep -h TMIN ????.csv > 201X_TMIN.csv &
 grep -h TMAX ????.csv > 201X_TMAX.csv &
+grep -h PRCP ????.csv > 201X_PRCP.csv &
 ```
